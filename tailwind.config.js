@@ -4,7 +4,7 @@ const config = {
     screens: {
       sm: "480px",
       md: "768px",
-      xl: "1440px",
+      xl: "1512px",
     },
     extend: {
       container: {

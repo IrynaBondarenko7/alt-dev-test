@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  position: relative;
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("./assets/fonts/Gilroy-Regular.ttf");
