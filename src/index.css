@@ -23,9 +23,8 @@ body {
 }
 
 .hero {
-  background-image: url("../public/images/hero/bg-person-2.png"),
-    url("../public/images/hero/bg-person-1.png"),
-    url("../public/images/hero/hero-bg.png");
+  background-image: url("/images/hero/bg-person-2.png"),
+    url("/images/hero/bg-person-1.png"), url("/images/hero/hero-bg.png");
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 995px 165px, 705px 200px, 298px 0;
+  background-position: 988px 165px, 688px 201px, 292px 0;
 }

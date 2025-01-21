@@ -2,8 +2,6 @@ const config = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     screens: {
-      sm: "480px",
-      md: "768px",
       xl: "1512px",
     },
     extend: {
@@ -22,6 +20,9 @@ const config = {
       fontFamily: {
         "ibm-plex-mono": ['"IBM Plex Mono"', "serif"],
         gilroy: ["Gilroy", "serif"],
+      },
+      boxShadow: {
+        customCardShadow: "5px 5px 30px 0px rgba(0, 0, 0, 0.25)",
       },
     },
   },
