@@ -9,7 +9,7 @@ export const Header = () => {
             className="w-[133px] h-[82px]"
           />
           <nav className="flex flex-col justify-between">
-            <ul className="font-ibm-plex-mono text-[13px] font-medium leading-normal not-italic flex gap-[33px]">
+            <ul className="font-ibm-plex-mono text-[13px] font-medium leading-normal flex gap-[33px]">
               <li>
                 <a href="tel:0845 034 0895">0845 034 0895</a>
               </li>
@@ -20,7 +20,7 @@ export const Header = () => {
                 <a href="#careers">Careers</a>
               </li>
             </ul>
-            <ul className="font-gilroy font-bold text-[18px] leading-normal not-italic flex gap-[37px]">
+            <ul className="font-gilroy font-bold text-[18px] leading-normal flex gap-[37px]">
               <li>
                 <a href="#services">Services</a>
               </li>
@@ -40,7 +40,7 @@ export const Header = () => {
           <li>
             <a
               href="#"
-              className="font-ibm-plex-mono text-[13px] font-medium leading-normal not-italic"
+              className="font-ibm-plex-mono text-[13px] font-medium leading-normal"
             >
               Request support
             </a>
@@ -48,7 +48,7 @@ export const Header = () => {
           <li>
             <button
               type="button"
-              className="text-btnTextColour text-center font-gilroy text-[18px] leading-[0px] not-italic font-bold w-[165px] h-[48px] rounded-[5px] bg-white absolute right-0"
+              className="text-btnTextColour text-center font-gilroy text-[18px] leading-[0px] font-bold w-[165px] h-[48px] rounded-[5px] bg-white absolute right-0"
             >
               Call me back
             </button>

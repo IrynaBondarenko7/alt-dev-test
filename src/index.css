@@ -5,6 +5,7 @@
 
 body {
   position: relative;
+  font-style: normal;
 }
 
 @font-face {
@@ -19,4 +20,12 @@ body {
   src: url("./assets/fonts/Gilroy-Bold.ttf");
   font-weight: 700;
   font-style: normal;
+}
+
+.hero {
+  background-image: url("../public/images/hero/bg-person-2.png"),
+    url("../public/images/hero/bg-person-1.png"),
+    url("../public/images/hero/hero-bg.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 995px 165px, 705px 200px, 298px 0;
 }
