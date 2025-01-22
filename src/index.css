@@ -28,3 +28,10 @@ body {
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 988px 165px, 688px 201px, 292px 0;
 }
+
+.about {
+  background-image: url("/images/about-bg.png");
+  background-repeat: no-repeat;
+  background-position: right calc(50% + 427px) top 0;
+  background-size: 870px 651px;
+}
