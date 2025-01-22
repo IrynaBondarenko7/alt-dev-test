@@ -1,7 +1,7 @@
 export const HeroSection = () => {
   return (
-    <section className="bg-bgColour h-[742px] hero max-w-[1512px] mx-auto">
-      <div className="container pt-[248px] pl-[141px] text-white ">
+    <section className="bg-bgColour  ">
+      <div className="container pt-[248px] pl-[141px] text-white hero max-w-[1512px] h-[742px] mx-auto">
         <h1 className="font-gilroy text-[70px] font-bold leading-none not-italic mb-[9px] w-[463px]">
           We make your IT work easy.
         </h1>
