@@ -21,7 +21,7 @@ export const CaseSection = () => {
       <Swiper
         pagination={true}
         modules={[Pagination]}
-        className="mySwiper max-w-[1247px] h-[596px]"
+        className="mySwiper w-[1247px] h-[596px]"
       >
         <SwiperSlide className="relative rounded-[10px] shadow-customSlideShadow">
           <div className="absolute z-10 top-[85px] left-[71px]">

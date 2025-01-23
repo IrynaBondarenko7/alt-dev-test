@@ -16,6 +16,7 @@ const config = {
         secondBtnTextColour: "#3C2A7D",
         linkColour: "#F4207B",
         secondTextColour: "#0A151B",
+        strokeColour: "rgba(202, 202, 202, 0.50)",
       },
       fontFamily: {
         "ibm-plex-mono": ['"IBM Plex Mono"', "serif"],
