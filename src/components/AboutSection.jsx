@@ -1,7 +1,7 @@
 export const AboutSection = () => {
   return (
-    <section className="bg-secondBdColour py-[133px] about" id="about-us">
-      <div className="container text-white">
+    <section className="py-[133px] about" id="about-us">
+      <div className="container text-white pr-[115px]">
         <div className="w-[541px] ml-[856px]">
           <h2 className="font-gilroy text-[50px] font-bold leading-[58px] mb-[31px]">
             Turning process frustration into progress since 1996
