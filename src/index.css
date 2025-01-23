@@ -81,3 +81,9 @@ body {
   position: absolute !important;
   @apply left-1/2 -translate-x-1/2;
 }
+
+.insights {
+  background-image: url("/public/images/insights/insights-bg.png");
+  background-repeat: no-repeat;
+  background-position: 338px 475px;
+}

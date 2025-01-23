@@ -18,12 +18,12 @@ export const InsightsSection = () => {
   ];
 
   const lastElement =
-    "py-3.5 border-t-[1px] border-b-[1px] border-strokeColour ";
-  const middleElement = "py-3.5 border-t-[1px] border-strokeColour ";
+    "py-3.5 border-t-[1px] border-b-[1px] border-strokeColour pr-3.5";
+  const middleElement = "py-3.5 border-t-[1px] border-strokeColour pr-3.5";
 
   return (
-    <div className="pt-[475px] pb-[161px] bg-black px-[133px]">
-      <div className="container text-white">
+    <div className=" bg-black ">
+      <div className="container text-white insights pt-[475px] pb-[161px] px-[133px]">
         <section>
           <h2 className="font-gilroy text-center text-[40px] font-bold leading-[58px] mb-7">
             The business process problem solvers.
@@ -49,9 +49,9 @@ export const InsightsSection = () => {
             </li>
           </ul>
         </section>
-        <section className="mt-[175px]">
-          <div>
-            <h2 className="font-gilroy text-[40px] font-bold leading-[58px]">
+        <section className="mt-[175px] flex gap-[39px]">
+          <div className="w-1/2">
+            <h2 className="font-gilroy text-[40px] font-bold leading-[58px] pb-[31px]">
               Insights & News
             </h2>
             <div>
@@ -60,37 +60,39 @@ export const InsightsSection = () => {
                 alt="insights"
                 width={602}
               />
-              <p className="font-ibm-plex-mono text-[16px] leading-[30px]">
+              <p className="font-ibm-plex-mono text-[16px] leading-[30px] mt-[18px] mb-0.5">
                 15/06/2024
               </p>
-              <h3 className="font-gilroy text-[25px] font-bold leading-[33px]">
+              <h3 className="font-gilroy text-[25px] font-bold leading-[33px] mb-[60px]">
                 What is Microsoft Loop and how does it work
               </h3>
             </div>
-            <div>
-              <img src="/images/insights/insights-2.png" alt="insights" />
-              <p className="font-ibm-plex-mono text-[16px] leading-[30px]">
-                15/06/2024
-              </p>
-              <h3 className="font-gilroy text-[25px] font-bold leading-[33px]">
-                Boost productivity within your law firm with xerox technology
-              </h3>
-            </div>
-            <div>
-              <img src="/images/insights/insights-3.png" alt="insights" />
-              <p className="font-ibm-plex-mono text-[16px] leading-[30px]">
-                15/06/2024
-              </p>
-              <h3 className="font-gilroy text-[25px] font-bold leading-[33px]">
-                What is Microsoft Loop and how does it work
-              </h3>
+            <div className="flex gap-[34px]">
+              <div>
+                <img src="/images/insights/insights-2.png" alt="insights" />
+                <p className="font-ibm-plex-mono text-[16px] leading-[30px]">
+                  15/06/2024
+                </p>
+                <h3 className="font-gilroy text-[25px] font-bold leading-[33px] w-[279px]">
+                  Boost productivity within your law firm with xerox technology
+                </h3>
+              </div>
+              <div>
+                <img src="/images/insights/insights-3.png" alt="insights" />
+                <p className="font-ibm-plex-mono text-[16px] leading-[30px]">
+                  15/06/2024
+                </p>
+                <h3 className="font-gilroy text-[25px] font-bold leading-[33px]">
+                  What is Microsoft Loop and how does it work
+                </h3>
+              </div>
             </div>
           </div>
-          <div className=" w-full ">
-            <h2 className="font-gilroy text-[40px] font-bold leading-[58px]">
+          <div className="w-1/2">
+            <h2 className="font-gilroy text-[40px] font-bold leading-[58px] pb-[31px]">
               FAQ’s
             </h2>
-            <div className="mx-auto w-full max-w-lg  rounded-xl">
+            <div className="w-full rounded-xl">
               {faq.map((question, i) => {
                 return (
                   <Disclosure
@@ -117,6 +119,12 @@ export const InsightsSection = () => {
                 );
               })}
             </div>
+            <a
+              href="#"
+              className="font-ibm-plex-mono text-[12px] leading-[23px] underline decoration-solid underline-offset-2 mt-6 block"
+            >
+              View all FAQs
+            </a>
           </div>
         </section>
       </div>
