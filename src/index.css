@@ -83,7 +83,43 @@ body {
 }
 
 .insights {
-  background-image: url("/public/images/insights/insights-bg.png");
+  background-image: url("/images/insights/insights-bg.png");
   background-repeat: no-repeat;
   background-position: 338px 475px;
+}
+
+.icon-28 {
+  width: 43.3px;
+  height: 43.3px;
+  left: 49px;
+  top: -8px;
+}
+
+.icon-22 {
+  width: 43.3px;
+  height: 43.3px;
+  left: 58px;
+  top: 0px;
+}
+.icon-1650 {
+  width: 78px;
+  height: 43.3px;
+  left: 52px;
+  top: -9px;
+}
+.icon-25 {
+  width: 43.3px;
+  height: 43.3px;
+  left: 56px;
+  top: -8px;
+}
+
+.icon-28::after,
+.icon-22::after,
+.icon-1650::after,
+.icon-25::after {
+  content: "";
+  z-index: -1;
+  border-radius: 2px;
+  @apply w-full h-full top-0 left-0 absolute bg-secondBdColour;
 }
