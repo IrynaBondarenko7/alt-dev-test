@@ -16,6 +16,7 @@ const config = {
         secondBtnTextColour: "#3C2A7D",
         linkColour: "#F4207B",
         secondTextColour: "#0A151B",
+        thirdTextColour: "rgba(255, 255, 255, 0.80)",
         strokeColour: "rgba(202, 202, 202, 0.50)",
       },
       fontFamily: {

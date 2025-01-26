@@ -2,6 +2,7 @@ import "./App.css";
 import { AboutSection } from "./components/AboutSection";
 import { CaseSection } from "./components/CaseSection";
 import { ContactsSection } from "./components/ContactsSection";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
 import { InsightsSection } from "./components/InsightsSection";
@@ -21,9 +22,10 @@ function App() {
         <InsightsSection />
         <TeamSection />
         <ProductivitySection />
-        <div className="bg-thirdBgColour">
-          <div className="container pt-[92px]">
+        <div className="bg-thirdBgColour footer-stroke relative  w-full">
+          <div className="container pt-[92px] footer-bg">
             <ContactsSection />
+            <Footer />
           </div>
         </div>
       </main>
