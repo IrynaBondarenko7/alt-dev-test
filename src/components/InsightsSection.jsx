@@ -70,7 +70,7 @@ export const InsightsSection = () => {
             <div className="flex gap-[34px]">
               <div>
                 <img src="/images/insights/insights-2.png" alt="insights" />
-                <p className="font-ibm-plex-mono text-[16px] leading-[30px]">
+                <p className="font-ibm-plex-mono text-[16px] leading-[30px] mt-[18px]">
                   15/06/2024
                 </p>
                 <h3 className="font-gilroy text-[25px] font-bold leading-[33px] w-[279px]">
@@ -79,7 +79,7 @@ export const InsightsSection = () => {
               </div>
               <div>
                 <img src="/images/insights/insights-3.png" alt="insights" />
-                <p className="font-ibm-plex-mono text-[16px] leading-[30px]">
+                <p className="font-ibm-plex-mono text-[16px] leading-[30px] mt-[18px]">
                   15/06/2024
                 </p>
                 <h3 className="font-gilroy text-[25px] font-bold leading-[33px]">
