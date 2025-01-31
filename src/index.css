@@ -35,17 +35,19 @@ body {
   background-repeat: no-repeat;
   background-position: right calc(50% + 427px) top 0;
   background-size: 870px 651px;
+  overflow-x: hidden;
 }
 
 .about::after {
   content: "";
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 100%;
+  right: 50%;
+  width: 50vw;
   height: 100%;
   background: linear-gradient(90deg, #c92c93, #c92c93);
   z-index: -1;
+  transform: translateX(100%);
 }
 
 .swiper-slide {
