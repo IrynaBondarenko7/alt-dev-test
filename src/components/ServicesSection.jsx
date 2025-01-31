@@ -26,7 +26,7 @@ export const ServicesSection = () => {
             </p>
             <a
               href="#"
-              className="font-ibm-plex-mono text-[12px] font-normal leading-[23px] decoration-solid underline text-center block"
+              className="font-ibm-plex-mono text-[12px] font-normal leading-[23px] decoration-solid underline text-center block hover:text-[14px] focus:text-[14px] transition-all duration-300"
             >
               Learn More
             </a>
@@ -43,7 +43,7 @@ export const ServicesSection = () => {
             </p>
             <a
               href="#"
-              className="font-ibm-plex-mono text-[12px] font-normal leading-[23px] decoration-solid underline text-center block text-linkColour"
+              className="font-ibm-plex-mono text-[12px] font-normal leading-[23px] decoration-solid underline text-center block text-linkColour hover:text-[14px] focus:text-[14px] transition-all duration-300"
             >
               Learn More
             </a>
@@ -60,7 +60,7 @@ export const ServicesSection = () => {
             </p>
             <a
               href="#"
-              className="font-ibm-plex-mono text-[12px] font-normal leading-[23px] decoration-solid underline text-center block text-linkColour"
+              className="font-ibm-plex-mono text-[12px] font-normal leading-[23px] decoration-solid underline text-center block text-linkColour hover:text-[14px] focus:text-[14px] transition-all duration-300"
             >
               Learn More
             </a>
@@ -77,7 +77,7 @@ export const ServicesSection = () => {
             </p>
             <a
               href="#"
-              className="font-ibm-plex-mono text-[12px] font-normal leading-[23px] decoration-solid underline text-center block text-linkColour"
+              className="font-ibm-plex-mono text-[12px] font-normal leading-[23px] decoration-solid underline text-center block text-linkColour hover:text-[14px] focus:text-[14px] transition-all duration-300"
             >
               Learn More
             </a>

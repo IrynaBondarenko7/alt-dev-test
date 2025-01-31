@@ -121,7 +121,7 @@ export const InsightsSection = () => {
             </div>
             <a
               href="#"
-              className="font-ibm-plex-mono text-[12px] leading-[23px] underline decoration-solid underline-offset-2 mt-6 block"
+              className="font-ibm-plex-mono text-[12px] leading-[23px] underline decoration-solid underline-offset-2 mt-6 block hover:text-thirdTextColour focus:text-thirdTextColour transition-all duration-300"
             >
               View all FAQs
             </a>

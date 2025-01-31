@@ -49,7 +49,7 @@ export const ContactsSection = () => {
         ></textarea>
         <button
           type="submit"
-          className="h-[55px] bg-white text-secondBtnTextColour text-[16px] leading-[30px] text-center w-[200px] pt-[12px] pb-[13px] font-ibm-plex-mono self-end"
+          className="h-[55px] bg-white text-secondBtnTextColour text-[16px] leading-[30px] text-center w-[200px] pt-[12px] pb-[13px] font-ibm-plex-mono self-end hover:bg-secondBtnTextColour focus:bg-secondBtnTextColour hover:text-white focus:text-white transition-all duration-500"
         >
           Submit now
         </button>

@@ -2,17 +2,38 @@ export const Footer = () => {
   return (
     <footer className="mt-[118px] text-white font-ibm-plex-mono">
       <div className="px-[144px] flex gap-[68px] mb-[43px]">
-        <img
-          src="/images/white-logo.png"
-          alt="logo"
-          className="w-[94px] h-[57px] mt-[10px]"
-        />
-        <ul className="flex justify-between w-full">
+        <a
+          href="/"
+          className="mt-[5px]  w-[94px] h-[57px] hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white rounded-br-[25px] transition-all duration-300"
+        >
+          <img
+            src="/images/white-logo.png"
+            alt="logo"
+            className="w-[94px] h-[57px] "
+          />
+        </a>
+        <ul className="flex justify-between w-full flex-1">
           <li className="text-[12px] leading-[22px]">
             <h3>Contact us</h3>
             <ul>
-              <li>E info@dnslimited.co.uk</li>
-              <li>T 0845 034 0895</li>
+              <li>
+                E
+                <a
+                  href="mailto:info@dnslimited.co.uk"
+                  className="ml-2 underline decoration-transparent hover:decoration-inherit underline-offset-0 hover:underline-offset-[3px] focus:decoration-inherit focus:underline-offset-[3px] transition-all duration-300"
+                >
+                  info@dnslimited.co.uk
+                </a>
+              </li>
+              <li>
+                T
+                <a
+                  href="tel:08450340895"
+                  className="ml-2 underline decoration-transparent hover:decoration-inherit underline-offset-0 hover:underline-offset-[3px] focus:decoration-inherit focus:underline-offset-[3px] transition-all duration-300"
+                >
+                  0845 034 0895
+                </a>
+              </li>
             </ul>
           </li>
           <li className="text-[12px] leading-[22px] w-[133px]">

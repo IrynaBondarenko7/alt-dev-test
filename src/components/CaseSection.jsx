@@ -13,7 +13,7 @@ export const CaseSection = () => {
         </h2>
         <a
           href="#"
-          className="text-black font-ibm-plex-mono text-[12px] leading-[23px] underline decoration-solid"
+          className="text-black font-ibm-plex-mono text-[12px] leading-[23px] underline decoration-solid hover:text-btnTextColour focus:text-btnTextColour transition-all duration-300"
         >
           View all Case Studies
         </a>
