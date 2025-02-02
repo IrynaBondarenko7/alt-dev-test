@@ -19,8 +19,8 @@ function App() {
         <ServicesSection />
         <AboutSection />
         <CaseSection />
-        {/* <InsightsSection /> */}
-        {/* <TeamSection /> */}
+        <InsightsSection />
+        <TeamSection />
         {/* <ProductivitySection /> */}
       </main>
       {/* <div className="bg-thirdBgColour footer-stroke relative  w-full">

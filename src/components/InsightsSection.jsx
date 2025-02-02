@@ -23,12 +23,12 @@ export const InsightsSection = () => {
 
   return (
     <div className=" bg-black ">
-      <div className="container text-white insights pt-[475px] pb-[161px] px-[133px]">
+      <div className="container text-white insights pt-[100px] xl:pt-[475px] pb-[100px] xl:pb-[161px] px-3 xl:px-[133px]">
         <section>
-          <h2 className="font-gilroy text-center text-[40px] font-bold leading-[58px] mb-7">
+          <h2 className="font-gilroy text-center text-[25px] xl:text-[40px] font-bold leading-[58px] mb-7">
             The business process problem solvers.
           </h2>
-          <ul className="flex gap-[78px] max-w-[1018px] mx-auto">
+          <ul className="flex flex-col md:flex-row gap-10 xl:gap-[78px] max-w-[1018px] mx-auto">
             <li>
               <p className="font-ibm-plex-mono text-[16px] leading-[30px]">
                 Recognising your frustrations with your print environment, IT
@@ -49,9 +49,9 @@ export const InsightsSection = () => {
             </li>
           </ul>
         </section>
-        <section className="mt-[175px] flex gap-[39px]">
-          <div className="w-1/2">
-            <h2 className="font-gilroy text-[40px] font-bold leading-[58px] pb-[31px]">
+        <section className="mt-8 xl:mt-[175px] flex flex-col md:flex-row gap-[39px]">
+          <div className="md:w-1/2">
+            <h2 className="font-gilroy text-[30px] md:text-[40px] font-bold leading-[58px] pb-[31px]">
               Insights & News
             </h2>
             <div>
@@ -63,11 +63,11 @@ export const InsightsSection = () => {
               <p className="font-ibm-plex-mono text-[16px] leading-[30px] mt-[18px] mb-0.5">
                 15/06/2024
               </p>
-              <h3 className="font-gilroy text-[25px] font-bold leading-[33px] mb-[60px]">
+              <h3 className="font-gilroy text-[25px] font-bold leading-[33px] mb-3 xl:mb-[60px]">
                 What is Microsoft Loop and how does it work
               </h3>
             </div>
-            <div className="flex gap-[34px]">
+            <div className="flex flex-col xl:flex-row gap-[34px]">
               <div>
                 <img src="/images/insights/insights-2.png" alt="insights" />
                 <p className="font-ibm-plex-mono text-[16px] leading-[30px] mt-[18px]">
@@ -88,8 +88,8 @@ export const InsightsSection = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
-            <h2 className="font-gilroy text-[40px] font-bold leading-[58px] pb-[31px]">
+          <div className="md:w-1/2">
+            <h2 className="font-gilroy text-[30px] md:text-[40px] font-bold leading-[58px] pb-[31px]">
               FAQ’s
             </h2>
             <div className="w-full rounded-xl">
@@ -103,7 +103,7 @@ export const InsightsSection = () => {
                     key={i}
                   >
                     <DisclosureButton className="group flex w-full items-center justify-between">
-                      <span className="font-gilroy text-[23px] font-medium leading-[45px] text-white group-data-[hover]:text-white/80">
+                      <span className="font-gilroy text-[18px] text-left md:text-[23px] font-medium leading-[45px] text-white group-data-[hover]:text-white/80">
                         {question}
                       </span>
                       <p className="font-gilroy text-[23px] font-medium leading-[45px] group-data-[hover]:fill-white/50 group-data-[open]:rotate-180">

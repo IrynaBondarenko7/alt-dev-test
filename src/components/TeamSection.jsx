@@ -12,13 +12,13 @@ import Icon25 from "../assets/icons/team/25.svg?react";
 
 export const TeamSection = () => {
   return (
-    <section className="pt-[111px] pb-[129px]">
-      <div className="container px-[223px]">
-        <h2 className="text-secondTextColour font-gilroy text-[40px] font-bold leading-[48px] mb-[58px] text-center w-[545px] mx-auto">
+    <section className="pt-[50px] xl:pt-[111px] pb-[129px]">
+      <div className="container px-3 xl:px-[223px]">
+        <h2 className="text-secondTextColour font-gilroy text-[30px] xl:text-[40px] font-bold leading-[48px] mb-[58px] text-center xl:w-[545px] mx-auto">
           A team of accredited experts that support you
         </h2>
         <ul className="w-full flex justify-between flex-wrap gap-y-[54px]">
-          <li className="w-[275px]">
+          <li className="w-[275px] mx-auto">
             <div className="relative mx-auto w-[77px] mb-[14px]">
               <CalendarIcon />
               <div className="icon-28 flex justify-center items-center absolute z-10 rounded-[2px]">
@@ -32,7 +32,7 @@ export const TeamSection = () => {
               Lorem ipsum dolor sit amet consectetur. Etiam sem netus tellus.
             </p>
           </li>
-          <li className="w-[275px]">
+          <li className="w-[275px] mx-auto">
             <div className="relative mx-auto w-[82px] mb-[13px]">
               <SupportIcon />
             </div>
@@ -43,7 +43,7 @@ export const TeamSection = () => {
               Lorem ipsum dolor sit amet consectetur. Etiam sem netus tellus.
             </p>
           </li>
-          <li className="w-[275px]">
+          <li className="w-[275px] mx-auto">
             <div className="relative mx-auto w-[73px] mb-[8px]">
               <ExpertIcon />
               <div className="icon-22 flex justify-center items-center absolute z-10 rounded-[2px]">
@@ -57,7 +57,7 @@ export const TeamSection = () => {
               Lorem ipsum dolor sit amet consectetur. Etiam sem netus tellus.
             </p>
           </li>
-          <li className="w-[275px]">
+          <li className="w-[275px] mx-auto">
             <div className="relative mx-auto w-[73px] mb-[8px]">
               <ContractsIcon />
               <div className="icon-1650 flex justify-center items-center absolute z-10 rounded-[2px]">
@@ -71,7 +71,7 @@ export const TeamSection = () => {
               Lorem ipsum dolor sit amet consectetur. Etiam sem netus tellus.
             </p>
           </li>
-          <li className="w-[275px]">
+          <li className="w-[275px] mx-auto">
             <div className="relative mx-auto w-[79px] mb-[8px]">
               <TrainingIcon />
               <TrainingPinkIcon className="absolute z-10 top-0" />
@@ -83,7 +83,7 @@ export const TeamSection = () => {
               Lorem ipsum dolor sit amet consectetur. Etiam sem netus tellus.
             </p>
           </li>
-          <li className="w-[275px]">
+          <li className="w-[275px] mx-auto">
             <div className="relative mx-auto w-[80px] mb-[8px]">
               <AwardsPinkIcon />
               <div className="icon-25 flex justify-center items-center absolute z-10 rounded-[2px]">

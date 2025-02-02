@@ -124,7 +124,15 @@ body {
 .insights {
   background-image: url("/images/insights/insights-bg.png");
   background-repeat: no-repeat;
-  background-position: 338px 475px;
+  background-position: right 0px bottom 0px;
+}
+
+@media screen and (min-width: 1512px) {
+  .insights {
+    background-image: url("/images/insights/insights-bg.png");
+    background-repeat: no-repeat;
+    background-position: 338px 475px;
+  }
 }
 
 .icon-28 {
