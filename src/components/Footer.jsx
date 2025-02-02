@@ -1,18 +1,18 @@
 export const Footer = () => {
   return (
-    <footer className="mt-[118px] text-white font-ibm-plex-mono">
-      <div className="px-[144px] flex gap-[68px] mb-[43px]">
+    <footer className="mt-16 xl:mt-[118px] text-white font-ibm-plex-mono">
+      <div className="px-3 xl:px-[144px] flex flex-col md:flex-row gap-2 xl:gap-[68px] mb-5 xl:mb-[43px]">
         <a
           href="/"
-          className="mt-[5px]  w-[94px] h-[57px] hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white rounded-br-[25px] transition-all duration-300"
+          className="mt-[5px] w-[80px] xl:w-[94px] xl:h-[57px] hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white rounded-br-[25px] transition-all duration-300"
         >
           <img
             src="/images/white-logo.png"
             alt="logo"
-            className="w-[94px] h-[57px] "
+            className="w-[80px] xl:w-[94px] xl:h-[57px]"
           />
         </a>
-        <ul className="flex justify-between w-full flex-1">
+        <ul className="flex flex-col md:flex-row gap-5 xl:gap-0 xl:justify-between w-[75%] xl:w-full flex-1 mx-auto">
           <li className="text-[12px] leading-[22px]">
             <h3>Contact us</h3>
             <ul>
@@ -67,7 +67,7 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="pt-[19px] pb-[28px] pl-[38px] pr-[27px] flex justify-between text-[11px] leading-[26px] items-center footer">
+      <div className="pt-[19px] pb-[28px] pl-[38px] pr-[27px] flex flex-col md:flex-row justify-between text-[11px] leading-[26px] items-center footer">
         <p>Design & built by Alt</p>
         <p>© Document Network Services Ltd 2024</p>
       </div>

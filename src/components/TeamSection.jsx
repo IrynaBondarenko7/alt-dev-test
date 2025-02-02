@@ -12,7 +12,7 @@ import Icon25 from "../assets/icons/team/25.svg?react";
 
 export const TeamSection = () => {
   return (
-    <section className="pt-[50px] xl:pt-[111px] pb-[129px]">
+    <section className="pt-[50px] xl:pt-[111px] pb-[50px] xl:pb-[129px]">
       <div className="container px-3 xl:px-[223px]">
         <h2 className="text-secondTextColour font-gilroy text-[30px] xl:text-[40px] font-bold leading-[48px] mb-[58px] text-center xl:w-[545px] mx-auto">
           A team of accredited experts that support you

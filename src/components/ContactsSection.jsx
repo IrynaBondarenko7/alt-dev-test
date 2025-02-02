@@ -1,15 +1,15 @@
 export const ContactsSection = () => {
   return (
     <section
-      className="pl-[147px] pr-[175px] text-white flex gap-[115px]"
+      className="px-3 xl:pl-[147px] xl:pr-[175px] text-white flex flex-col md:flex-row gap-6 xl:gap-[115px]"
       id="contact"
     >
       <div>
-        <h2 className="font-gilroy text-[60px] font-bold leading-[normal] w-[607px] pb-[17px]">
+        <h2 className="font-gilroy text-[30px] xl:text-[60px] font-bold leading-[normal] xl:w-[607px] pb-[17px]">
           We’re <span className="text-stroke text-transparent">your</span> IT
           Services problem solvers
         </h2>
-        <p className="font-ibm-plex-mono text-16px leading-[30px] mb-[30px] w-[596px]">
+        <p className="font-ibm-plex-mono text-16px leading-[30px] mb-[30px] xl:w-[596px]">
           Recognising your frustrations with your print environment, IT
           services, document management & communications and finding.
         </p>

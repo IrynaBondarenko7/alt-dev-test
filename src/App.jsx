@@ -21,14 +21,14 @@ function App() {
         <CaseSection />
         <InsightsSection />
         <TeamSection />
-        {/* <ProductivitySection /> */}
+        <ProductivitySection />
       </main>
-      {/* <div className="bg-thirdBgColour footer-stroke relative  w-full">
-        <div className="container pt-[92px] footer-bg">
+      <div className="bg-thirdBgColour footer-stroke relative  w-full">
+        <div className="container pt-[40px] xl:pt-[92px] footer-bg">
           <ContactsSection />
           <Footer />
         </div>
-      </div> */}
+      </div>
     </>
   );
 }
