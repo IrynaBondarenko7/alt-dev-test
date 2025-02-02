@@ -16,12 +16,12 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-        {/* <ServicesSection />
+        <ServicesSection />
         <AboutSection />
-        <CaseSection />
-        <InsightsSection />
-        <TeamSection />
-        <ProductivitySection /> */}
+        {/* <CaseSection /> */}
+        {/* <InsightsSection /> */}
+        {/* <TeamSection /> */}
+        {/* <ProductivitySection /> */}
       </main>
       {/* <div className="bg-thirdBgColour footer-stroke relative  w-full">
         <div className="container pt-[92px] footer-bg">
