@@ -1,20 +1,23 @@
+import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/16/solid";
+
 export const Header = () => {
   return (
-    <header className="absolute top-0 text-white left-1/2 -translate-x-1/2 z-10 pt-[30px] pr-[31px] pl-[48px] w-full max-w-[1512px]">
+    <header className="absolute top-0 text-white left-1/2 -translate-x-1/2 z-10 pt-3 px-5 xl:pt-[30px] xl:pr-[31px] xl:pl-[48px] w-full max-w-[1512px]">
       <div className="container flex justify-between">
         <div className="flex gap-[33px]">
           <a
             href="/"
-            className="hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white rounded-br-[37px] transition-all duration-300"
+            className="w-[80px] h-[52px] xl:w-[133px] xl:h-[82px] hover:shadow-md hover:shadow-white focus:shadow-md focus:shadow-white rounded-br-[37px] transition-all duration-300"
           >
             <img
               src="/images/white-logo.png"
               alt="logo"
-              className="w-[133px] h-[82px]"
+              className="w-[80px] h-[52px] xl:w-[133px] xl:h-[82px]"
             />
           </a>
 
-          <nav className="flex flex-col justify-between">
+          <nav className="hidden xl:flex flex-col justify-between">
             <ul className="font-ibm-plex-mono text-[13px] font-medium leading-normal flex gap-[33px]">
               <li>
                 <a
@@ -77,7 +80,7 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
-        <ul className="flex flex-col relative gap-[21px]">
+        <ul className="hidden xl:flex flex-col relative gap-[21px]">
           <li>
             <a
               href="#"
@@ -95,6 +98,66 @@ export const Header = () => {
             </button>
           </li>
         </ul>
+        <div className="xl:hidden">
+          <Menu>
+            <MenuButton className="inline-flex items-center gap-2 rounded-md bg-white py-1.5 px-3 text-sm/6 font-semibold text-bgColour shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-700 data-[open]:bg-white-700 data-[focus]:outline-1 data-[focus]:outline-white">
+              Menu
+              <ChevronDownIcon className="size-4 fill-bgColour/60" />
+            </MenuButton>
+
+            <MenuItems
+              anchor="bottom"
+              className="font-ibm-plex-mono  w-52 origin-top-right rounded-xl border border-white/5 bg-white p-1 text-sm/6 text-bgColour transition duration-100 ease-out [--anchor-gap:var(--spacing-1)] focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0"
+            >
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  About us
+                </button>
+              </MenuItem>
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  Careers
+                </button>
+              </MenuItem>
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  Services
+                </button>
+              </MenuItem>
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  Case Studies
+                </button>
+              </MenuItem>
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  Insights
+                </button>
+              </MenuItem>
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  Contact
+                </button>
+              </MenuItem>
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  Request support
+                </button>
+              </MenuItem>
+
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  0845 034 0895
+                </button>
+              </MenuItem>
+              <MenuItem>
+                <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
+                  Call me back
+                </button>
+              </MenuItem>
+            </MenuItems>
+          </Menu>
+        </div>
       </div>
     </header>
   );

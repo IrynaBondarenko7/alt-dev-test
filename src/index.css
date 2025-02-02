@@ -22,11 +22,34 @@ body {
   font-style: normal;
 }
 
-.hero {
-  background-image: url("/images/hero/bg-person-2.png"),
-    url("/images/hero/bg-person-1.png"), url("/images/hero/hero-bg.png");
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 988px 165px, 688px 201px, 292px 0;
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: url("/images/hero/bg-person-2.png"),
+      url("/images/hero/bg-person-1.png"), url("/images/hero/hero-bg.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right 10px top 126px, right 83px top 150px,
+      right 0 top 0;
+    background-size: 150px, 163px, 300px 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1511px) {
+  .hero {
+    background-image: url("/images/hero/bg-person-2.png"),
+      url("/images/hero/bg-person-1.png"), url("/images/hero/hero-bg.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 467px 130px, 289px 155px, 268px 0;
+    background-size: 240px, 275px, 500px 500px;
+  }
+}
+
+@media screen and (min-width: 1512px) {
+  .hero {
+    background-image: url("/images/hero/bg-person-2.png"),
+      url("/images/hero/bg-person-1.png"), url("/images/hero/hero-bg.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 988px 165px, 688px 201px, 292px 0;
+  }
 }
 
 .about {

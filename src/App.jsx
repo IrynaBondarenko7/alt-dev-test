@@ -16,19 +16,19 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-        <ServicesSection />
+        {/* <ServicesSection />
         <AboutSection />
         <CaseSection />
         <InsightsSection />
         <TeamSection />
-        <ProductivitySection />
-        <div className="bg-thirdBgColour footer-stroke relative  w-full">
-          <div className="container pt-[92px] footer-bg">
-            <ContactsSection />
-            <Footer />
-          </div>
-        </div>
+        <ProductivitySection /> */}
       </main>
+      {/* <div className="bg-thirdBgColour footer-stroke relative  w-full">
+        <div className="container pt-[92px] footer-bg">
+          <ContactsSection />
+          <Footer />
+        </div>
+      </div> */}
     </>
   );
 }

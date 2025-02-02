@@ -2,6 +2,8 @@ const config = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     screens: {
+      sm: "480px",
+      md: "768px",
       xl: "1512px",
     },
     extend: {
